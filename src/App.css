@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #5b4432;
+  --secondary-color: #a88a72;
+  --tertiary-color: #d4ac2b;
+}
+.logo {
+  max-width: 100px;
+}
+
+.heading {
+  font-size: 58px;
+  font-weight: 800;
+  color: var(--tertiary-color);
+}
