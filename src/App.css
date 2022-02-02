@@ -3,7 +3,7 @@
   --secondary-color: #a88a72;
   --tertiary-color: #d4ac2b;
 }
-.logo {
+.app-header .logo {
   max-width: 100px;
 }
 
