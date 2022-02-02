@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "./owl2.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
@@ -26,7 +27,7 @@ function App() {
           <a
             href="https://github.com/JesKattady/dictionary-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>{" "}
