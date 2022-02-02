@@ -5,15 +5,32 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
+      <div className="container"></div>
       <header className="app-header">
-        <img src={logo} alt="logo" className="logo img-fluid" />
-        <span className="heading"> Dictionary </span>
+        <div className="row">
+          <div className="col-2">
+            <img src={logo} alt="logo" className="logo img-fluid" />
+          </div>
+          <div className="col">
+            <div className="heading"> Dictionary </div>
+            <Dictionary />
+          </div>
+        </div>
       </header>
-      <main>
-        <Dictionary />
-      </main>
+      <main></main>
+      <div />
       <footer className="text-center">
-        <small> Coded by Jesna</small>
+        <small>
+          {" "}
+          Coded by Jesna,{" "}
+          <a
+            href="https://github.com/JesKattady/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+        </small>
       </footer>
     </div>
   );

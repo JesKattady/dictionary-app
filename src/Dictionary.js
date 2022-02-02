@@ -15,7 +15,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input
           type="search"
-          placeholder="search for a word"
+          placeholder="search for a word..."
           autoFocus={true}
           onChange={handleKeyword}
         />

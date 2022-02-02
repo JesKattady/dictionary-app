@@ -3,12 +3,19 @@
   --secondary-color: #a88a72;
   --tertiary-color: #d4ac2b;
 }
+
+.App {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
 .app-header .logo {
-  max-width: 100px;
+  max-width: 85px;
 }
 
 .heading {
-  font-size: 58px;
+  font-size: 40px;
   font-weight: 800;
   color: var(--tertiary-color);
 }
