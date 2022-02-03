@@ -1,0 +1,30 @@
+.Results {
+  padding: 10px 0px;
+}
+.Results h2 {
+  color: var(--tertiary-color);
+  font-style: oblique 40deg;
+}
+.Results h1 {
+  color: var(--primary-color);
+  font-weight: 900;
+}
+.Results h3 {
+  color: var(--primary-color);
+}
+
+.Meaning p:first-letter {
+  text-transform: capitalize;
+}
+
+.Meaning p em {
+  color: var(--secondary-color);
+}
+
+.Meaning blockquote em::before {
+  content: "\201C";
+}
+
+.Meaning blockquote em::after {
+  content: "\201D";
+}
