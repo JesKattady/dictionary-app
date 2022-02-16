@@ -14,11 +14,13 @@ function App() {
           </div>
           <div className="col">
             <div className="heading"> Dictionary </div>
-            <Dictionary />
+            <div className="sub-heading">What are you looking for?</div>
           </div>
         </div>
       </header>
-      <main></main>
+      <main>
+        <Dictionary default="welcome" />
+      </main>
       <div />
       <footer className="text-center">
         <small>

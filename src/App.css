@@ -15,7 +15,13 @@
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 800;
   color: var(--tertiary-color);
+}
+.sub-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tertiary-color);
+  line-height: 20px;
 }

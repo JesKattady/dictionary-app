@@ -1,1 +1,19 @@
+.Synonyms {
+  max-width: 600px;
+  list-style: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0;
+}
 
+.Synonyms li {
+  display: inline-block;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+  margin: 5px;
+  line-height: 30px;
+  border-radius: 25px;
+  background-color: RGB(212, 172, 43, 50%);
+}
