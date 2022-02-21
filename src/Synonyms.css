@@ -17,3 +17,8 @@
   border-radius: 25px;
   background-color: RGB(212, 172, 43, 50%);
 }
+
+.synonym span {
+  font-style: italic;
+  opacity: 60%;
+}

@@ -19,7 +19,7 @@ function App() {
         </div>
       </header>
       <main>
-        <Dictionary default="welcome" />
+        <Dictionary default="sunset" />
       </main>
       <div />
       <footer className="text-center">

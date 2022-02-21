@@ -12,24 +12,26 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
 
+  function search() {
+    // documentation: https://dictionaryapi.dev/e
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
+  }
+
   function handleSubmit(event) {
     event.preventDefault();
-  }
-  function search() {
-    //documention:https://dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
+    search();
   }
 
   function handleKeyword(event) {
     setKeyword(event.target.value);
-    search();
   }
 
   function load() {
     setLoaded(true);
     search();
   }
+
   if (loaded) {
     return (
       <div className="Dictionary">
@@ -46,6 +48,6 @@ export default function Dictionary(props) {
     );
   } else {
     load();
-    return "loading";
+    return "Loading";
   }
 }

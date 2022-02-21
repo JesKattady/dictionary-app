@@ -32,15 +32,11 @@
 .Meaning p:first-letter {
   text-transform: capitalize;
 }
-
+.Meaning .definition {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
 .Meaning em {
   color: var(--secondary-color);
-}
-
-.Meaning blockquote em::before {
-  content: "\201C";
-}
-
-.Meaning blockquote em::after {
-  content: "\201D";
+  margin-bottom: 10px;
 }
